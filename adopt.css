@@ -1,0 +1,69 @@
+body {
+    font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+    color: rgb(63, 65, 68);
+    background: #FCFDFD;
+    background-image: url("assest/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1,
+h2 {
+    margin-bottom: 5px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+
+
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2+P {
+    text-align: center;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.container img {
+    max-width: 200px;
+}
+
+.textbox {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(63, 65, 68);
+    outline: none;
+    height: 30px;
+
+}
+
+.tbl {
+    width: 80%;
+    text-align: center
+}

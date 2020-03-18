@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+
+}
+
+
+body {
+    font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+    color: #333;
+
+    background-image: url("assest/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.header {
+    text-align: center;
+    background-color: #333;
+
+}

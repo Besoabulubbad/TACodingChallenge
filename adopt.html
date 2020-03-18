@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <title>Adopt a cat</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="adopt.css">
+          <script src="adopt.js"></script>
+
+  </head>
+ 
+   <body>
+    <div class="topnav">
+  <a  href="home.html"  style="max-height:9px"><img id="logo" style="height:30px" src="assest\15-17.jpg"></a>
+  <a  href="home.html">Home</a>
+  <a href="adopt.html">Adopt a cat</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+<form id='form'>
+<fieldset>
+    <legend>Add new cat for adoption:</legend>
+  <label for="Cname">Cat name:</label><br>
+  <input type="text" class="textbox" id="Cname" name="Cname" required><br>
+  <label for="breed">Breed:</label><br>
+  <input type="text" class="textbox" id="Breed" name="Breed" required><br>
+    <label for="Age">Age:</label><br>
+  <input type="text" class="textbox" id="Age" name="Age" required><br>
+    <label for="Color">Color:</label><br>
+  <input type="text" class="textbox" id="Color" name="Color" required><br>
+  
+ <br> <div class="upload-btn-wrapper">
+   <button class="btn">Upload cat image</button>
+  <input type="file" accept="image/*"  id="Image" name="Image" required>
+  </div><br>
+  <input type="button" class="btn" value="Submit"  onclick="empty()">
+  </fieldset>
+</form>
+<table class='tbl'>
+<thead>
+<tr>
+<th>Image</th>
+<th>Name</th>
+<th>Breed</th>
+<th>Age</th>
+<th>Color</th>
+<th>Operations</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table> 
+</table>
+
+
+
+</body>
+</html>
